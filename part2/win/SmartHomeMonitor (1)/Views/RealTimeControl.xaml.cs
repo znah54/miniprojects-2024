@@ -1,4 +1,5 @@
 ﻿using MahApps.Metro.Controls;
+using Newtonsoft.Json;
 using SmartHomeMonitoringApp.Logics;
 using System;
 using System.Collections.Generic;

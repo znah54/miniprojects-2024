@@ -73,9 +73,5 @@ namespace SmartHomeMonitoringApp
         {
         }
 
-        private void MnuDataBaseMon_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
