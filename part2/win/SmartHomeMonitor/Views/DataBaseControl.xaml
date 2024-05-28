@@ -13,7 +13,7 @@
             <RowDefinition Height="50"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-
+        
         <!--제목 row 타이틀-->
         <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
             <iconPacks:PackIconOcticons Kind="Database" Margin="10" Width="24" Height="24"
