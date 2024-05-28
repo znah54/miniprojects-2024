@@ -2,6 +2,11 @@
 IoT 개발자 미니프로젝트 리포지토리
 
 
+## 1일차
+- 미니프로젝트
+
+![IoT프로젝트](https://raw.githubusercontent.com/znah54/miniprojects-2024/main/images/mp001.png)
+
 1. IoT기기 구성 - 아두이노, 라즈베리파이 등 IoT장비들과 연결
 2. 서버 구성 - IoT기기와 통신, DB구성, 데이터 수집 앱 개발
 3. 모니터링 구성 - 실시간 모니터링/제어 앱, 전체 연결
@@ -66,8 +71,12 @@ IoT 개발자 미니프로젝트 리포지토리
     - [x] 라즈베리파이 카메라
     - [x] GPIO H녀녀AT
     - [x] 브레드보드와 연결
-    - [x] DHT11 센서
+    - [] DHT11 센서
     - [x] RGB LED 모듈
+        - V - 5V 연결
+        - R - GPIO4 연결
+        - B - GPIO5 연결
+        - G - GPIO6 연결
     - [x] 서보모터
 
 ## 5일차
@@ -102,12 +111,13 @@ IoT 개발자 미니프로젝트 리포지토리
         - 방화벽 인바운드 열기
     - [x] RPi - paho-mqtt 패키지 설치, 송신(publisehr)
     - [ ] Win : MQTT.NET Nuget패키지 설치, 수신(subcriber)
-        - 
+        - M2Mqtt : 가볍게 쓸수 있음. 업데이트가 안됨.
+        - MQTTNet : MS에서 개발, 무겁다, 최신까지 업데이트 잘됨
 
 # 9일차
 - 스마트홈 연동 클래스 미니프로젝트
-    - [] WPF MQTT데이터 DB로 저장
-    - [] MQTT데이터 실시간 모니터링
+    - [x] WPF MQTT데이터 DB로 저장
+    - [x] MQTT데이터 실시간 모니터링
     - [] MQTT로 RPi 제어(LED제어)
     - [] WPF MQTT데이터 히스토리 확인
 
@@ -115,8 +125,15 @@ IoT 개발자 미니프로젝트 리포지토리
 - 스마트홈 연동 클래스 미니프로젝트
     - [x] WPF MQTT데이터 DB로 저장
     - [x] MQTT데이터 실시간 모니터링
-    - [] MQTT로 RPi 제어(LED제어)
-    - [] WPF MQTT데이터 히스토리 확인
+    - [x] MQTT로 RPi 제어(LED제어)
+    - [x] WPF MQTT데이터 히스토리 확인
+        - LiveChart2는 차후에 다시, 현재는 OxyPlot 차트 대체
+    - 실행결과
+    ![스마트홈1](https://raw.githubusercontent.com/znah54/miniprojects-2024/main/images/mp002.png)
+
+    ![스마트홈2](https://raw.githubusercontent.com/znah54/miniprojects-2024/main/images/mp003.png)
+
+    ![스마트홈3](https://raw.githubusercontent.com/znah54/miniprojects-2024/main/images/mp003.png)
 
 - 조별 미니프로젝트 발표
     - 1~5조 까지
